@@ -36,5 +36,5 @@ See the [file structure](#) section in the repo.
 ### Clone & Build
 
 ```bash
-git clone https://github.com/yourusername/SongEditorApp.git
+git clone https://github.com/Melkamukebede/SongEditor
 cd SongEditorApp
