@@ -1,18 +1,18 @@
-# 🎵 Song Editor App
+#  Song Editor App
 
 A simple Android app that allows users to manage a list of songs stored in a JSON file.  
 You can **add**, **update**, and **view** songs with ease.
 
-## 📱 Features
+##  Features
 
-- 📋 Display songs in a RecyclerView
-- ✏️ Update existing song details
-- ➕ Add new songs (prevents duplicates)
-- 💾 Persistent storage using internal storage (JSON)
-- 🔄 Auto-load from `assets/songs.json` on first launch
-- 🎯 Click on any song to populate edit fields
+-  Display songs in a RecyclerView
+-  Update existing song details
+-  Add new songs (prevents duplicates)
+-  Persistent storage using internal storage (JSON)
+-  Auto-load from `assets/songs.json` on first launch
+-  Click on any song to populate edit fields
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Java
 - **UI:** XML + Material Design
@@ -21,11 +21,11 @@ You can **add**, **update**, and **view** songs with ease.
 - **RecyclerView:** For listing songs
 - **Android Studio:** Latest stable version
 
-## 📂 Project Structure
+##  Project Structure
 
 See the [file structure](#) section in the repo.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
