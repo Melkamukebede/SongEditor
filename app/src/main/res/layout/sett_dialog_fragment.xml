@@ -1,0 +1,193 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="380dp"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Song reading activity settings"
+				android:textSize="20sp"
+				android:textColor="#000000" />
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/switra"
+					android:text="@string/scrn"
+					android:textSize="20sp"
+					android:textColor="#000000"
+					android:layout_weight="1" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:orientation="horizontal">
+				<Switch
+					android:id="@+id/switch2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/switra"
+					android:text="@string/full"
+					android:textSize="20sp"
+					android:textColor="#000000"
+					android:layout_weight="1" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/font"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<RadioGroup
+					android:id="@+id/radiogroup1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/songb"
+					android:orientation="vertical">
+					<Switch
+						android:id="@+id/switch3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="@drawable/switra"
+						android:text="Iren: ተስፋ ጺዮን"
+						android:textSize="20sp"
+						android:textColor="#000000" />
+					<Switch
+						android:id="@+id/switch4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:layout_marginBottom="5dp"
+						android:padding="8dp"
+						android:background="@drawable/switra"
+						android:text="antuwa:ተስፋ ጺዮን"
+						android:textSize="20sp"
+						android:textColor="#000000" />
+					<Switch
+						android:id="@+id/switch5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="@drawable/switra"
+						android:text="igezubisratgothic:ተስፋ ጺዮን"
+						android:textSize="20sp"
+						android:textColor="#000000" />
+					<Switch
+						android:id="@+id/switch6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:layout_marginBottom="5dp"
+						android:padding="8dp"
+						android:background="@drawable/switra"
+						android:text="elan:ተስፋ ጺዮን"
+						android:textSize="20sp"
+						android:textColor="#000000" />
+				</RadioGroup>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="40dp"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/texsiz"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<SeekBar
+					android:id="@+id/seekbar1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:progress="50"
+					android:progressDrawable="@drawable/secback"
+					android:thumb="@drawable/seekbar_thumb"
+					android:minHeight="12dp"
+					android:paddingStart="4dp"
+					android:paddingEnd="4dp" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/logoname"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/materialbutton1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Apply"
+					android:textSize="12sp"
+					android:textColor="#FFFFFF"
+					android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+					app:backgroundTint="@color/colorPrimary"
+					app:cornerRadius="8dp"
+					style="@style/Widget.MaterialComponents.Button" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

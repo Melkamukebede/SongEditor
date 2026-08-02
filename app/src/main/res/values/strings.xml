@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">songs_book</string>
+    <string name="fav">Show </string>
+    <string name="faveclear">Clear</string>
+    <string name="logoname">TESFATSION CHOIR</string>
+    <string name="open">open songs</string>
+    <string name="set">settings </string>
+    <string name="adm">admin panel </string>
+    <string name="shr">share app</string>
+    <string name="abt">about us and developer settings </string>
+    <string name="texsiz">text size </string>
+    <string name="font">font</string>
+    <string name="full">full screen </string>
+    <string name="scrn">screen don\'t close </string>
+</resources>

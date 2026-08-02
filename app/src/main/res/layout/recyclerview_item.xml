@@ -1,0 +1,66 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="0dp"
+	android:background="?attr/selectableItemBackground">
+	<androidx.cardview.widget.CardView
+		android:id="@+id/cardview1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		app:contentPadding="5dp"
+		app:cardElevation="10dp"
+		app:cardCornerRadius="10dp">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="text"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#212529"
+					android:layout_weight="1"
+					android:focusable="false" />
+				<ImageView
+					android:id="@+id/im"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/icon_n"
+					android:scaleType="center"
+					android:focusable="false" />
+			</LinearLayout>
+			<View
+				android:id="@+id/view2"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="#D3D3D3" />
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp"
+				android:text="text"
+				android:textSize="14sp"
+				android:textColor="#6C757D"
+				android:focusable="false" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</LinearLayout>

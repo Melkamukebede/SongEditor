@@ -1,0 +1,90 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="@drawable/songb"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="To access containt, you have to get password."
+				android:textSize="20sp"
+				android:textColor="#000000"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal" />
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/etphone"
+				android:layout_width="280dp"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:gravity="left|bottom"
+				android:textSize="25sp"
+				android:textColor="#000000"
+				android:hint="Password "
+				android:textColorHint="#607D8B"
+				android:layout_weight="1"
+				android:drawableStart="@drawable/icon_k" />
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/circleimageview1"
+				android:layout_width="50dp"
+				android:layout_height="60dp"
+				android:layout_marginLeft="5dp"
+				android:padding="8dp"
+				android:background="@android:color/transparent"
+				android:src="@drawable/ic_eye"
+				android:layout_weight="1"
+				app:civ_border_width="3dp"
+				app:civ_border_color="@android:color/transparent"
+				app:civ_circle_background_color="#009688"
+				app:civ_border_overlay="true" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:layout_marginTop="5dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="@drawable/songb"
+				android:text="Open "
+				android:textSize="40sp"
+				android:textColor="#000000"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
