@@ -1,0 +1,22 @@
+
+---
+
+## 5. Additional Files (Optional)
+
+- Create a `LICENSE` file (MIT or Apache 2.0) if you want.
+- Update `app/build.gradle` to specify your application ID, version, etc.
+
+---
+
+## 6. Verify on GitHub
+
+After pushing, go to your GitHub repository page. You should see all files, the README rendered, and the commit history.
+
+---
+
+## 7. Troubleshooting
+
+**If you get "failed to push some refs"**, ensure your local branch matches the remote branch name. Use:
+
+```bash
+git pull --rebase origin main
